@@ -78,13 +78,13 @@ Ensure you have the following installed:
 
 ### Top Headlines 
 
-![Top Headlines Dropdown](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Top%20Headlines%20Dropdown.JPG)
+<img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Top%20Headlines%20Dropdown.JPG" style="width:600px; height:400px"/>
 
 ### Countries 
-![Countries Dropdown](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Countries%20Dropdown.JPG)
+<img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Countries%20Dropdown.JPG" style="width:600px; height:400px"/>
 
 ### Multiple Pages
-![Multiple Pages Options](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/%5BHome%20Page%20Multiple%20Pages%20Options.JPG)
+<img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/%5BHome%20Page%20Multiple%20Pages%20Options.JPG" style="width:600px; height:400px"/>
 
 
 ## Technologies Used
