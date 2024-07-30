@@ -3,6 +3,7 @@
 <div align="center">
 
   <p>A responsive and interactive News Aggregator website using News API.</p>
+  <h3>Light Theme</h3>
   <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Home%20Page%20Light%20Theme.JPG" style="width:800px; height:400px"/>
 </div>
 
