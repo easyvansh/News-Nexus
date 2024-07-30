@@ -3,12 +3,14 @@
 <div align="center">
 
   <p>A responsive and interactive News Aggregator website using News API.</p>
+  
   <h3>Light Theme</h3>
   <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Home%20Page%20Light%20Theme.JPG" style="width:800px; height:400px"/>
 </div>
 
 **News Nexus** is your go-to platform for the latest news from around the world. It fetches real-time news updates from various sources using the News API, presenting them in a user-friendly and responsive interface. With features like topic-based news selection, country-specific filters, and theme customization, News Nexus ensures you stay informed in the way that suits you best. 
-You can access News Nexus online at [News Nexus](https://news-nexus-client.onrender.com).
+
+[News Nexus](https://news-nexus-client.onrender.com) is available online.
 
 - - -
 
