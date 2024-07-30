@@ -24,7 +24,7 @@ function CountryNews() {
   useEffect(() => {
     setIsLoading(true);
     setError(null);
-    fetch(`http://localhost:3000/country/${params.iso}?page=${page}&pageSize=${pageSize}`)
+    fetch(`https://news-nexus-server.onrender.com/country/${params.iso}?page=${page}&pageSize=${pageSize}`)
       .then((response) => {
         if (response.ok) {
           return response.json();
