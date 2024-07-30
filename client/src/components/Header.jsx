@@ -13,14 +13,14 @@ function Header() {
   const [theme, setTheme] = useState("light");
 
   let category = [
-    "Business",
-    "Entertainment",
-    "General",
-    "Health",
-    "Science",
-    "Sports",
-    "Technology",
-    "Politics",
+    "business",
+    "entertainment",
+    "general",
+    "health",
+    "science",
+    "sports",
+    "technology",
+    "politics",
   ];
 
   useEffect(() => {

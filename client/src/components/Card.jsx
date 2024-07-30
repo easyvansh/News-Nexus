@@ -10,12 +10,12 @@ function Card(props) {
         </div>
         <div className="description">
           <p className="description-text leading-7">
-            {props.description?.substring(0, 200)}
+            {props.description?.substring(0, 120)}
           </p>
         </div>
         <div className="info">
           <div className="source-info flex items-center gap-2">
-            <span className="font-semibold">Source:</span>
+            <span className="font-semibold">Source: </span>
             <a
               href={props.url}
               target="_blank"
@@ -26,12 +26,12 @@ function Card(props) {
           </div>
           <div className="origin flex flex-col">
             <p className="origin-item">
-              <span className="font-semibold">Author:</span>
+              <span className="font-semibold">Author: </span>
               {props.author}
             </p>
             <p className="origin-item">
-              <span className="font-semibold">Published At:</span>
-              ({props.publishedAt})
+              <span className="font-semibold">Published at: </span>
+              {props.publishedAt.substring(0, 10)}
             </p>
           </div>
         </div>
