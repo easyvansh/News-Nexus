@@ -14,6 +14,7 @@
   <h3>Dark Theme</h3>
   <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Home%20Page%20Dark%20Theme.JPG" style="width:800px; height:400px"/>
 </div>
+
 - - -
 
 ## Table of Contents
