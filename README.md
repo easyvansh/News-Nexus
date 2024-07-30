@@ -9,13 +9,14 @@
 
 **News Nexus** is your go-to platform for the latest news from around the world. It fetches real-time news updates from various sources using the News API, presenting them in a user-friendly and responsive interface. With features like topic-based news selection, country-specific filters, and theme customization, News Nexus ensures you stay informed in the way that suits you best.
 
+- - -
+
 <div align="center">
 
   <h3>Dark Theme</h3>
   <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Home%20Page%20Dark%20Theme.JPG" style="width:800px; height:400px"/>
 </div>
 
-- - -
 
 ## Table of Contents
 
@@ -57,9 +58,9 @@ Ensure you have the following installed:
    git clone https://github.com/easyvansh/News-Nexus.git
    ```
 
-2. Navigate to the project directory:
+2. Navigate to the server directory:
    ```bash
-   cd news-nexus
+   cd server
    ```
 
 3. Install dependencies:
@@ -73,6 +74,25 @@ Ensure you have the following installed:
    ```
 
 5. Visit the web service locally in your browser at `http://localhost:3000`.
+
+
+6. Navigate to the client directory:
+   ```bash
+   cd client
+   ```
+
+7. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+8. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+9. Visit the web service locally in your browser at `http://localhost:5173`.
+
 
 ## Usage
 
