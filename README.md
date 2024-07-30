@@ -1,73 +1,113 @@
-# News Nexus
+<h1 align="center"> News Nexus </h1>
 
 <div align="center">
-  <p>A responsive and interactive news aggregator website using News API.</p>
+
+  <p>A responsive and interactive News Aggregator website using News API.</p>
+  <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Home%20Page%20Light%20Theme.JPG" style="width:800px; height:400px"/>
 </div>
 
-- - -
-![Home Page Light Theme](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Home%20Page%20Light%20Theme.JPG)
-![Multiple Pages Options](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/%5BHome%20Page%20Multiple%20Pages%20Options.JPG)
+**News Nexus** is your go-to platform for the latest news from around the world. It fetches real-time news updates from various sources using the News API, presenting them in a user-friendly and responsive interface. With features like topic-based news selection, country-specific filters, and theme customization, News Nexus ensures you stay informed in the way that suits you best.
+
+### Dark Theme
 ![Home Page Dark Theme](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Home%20Page%20Dark%20Theme.JPG)
-![Top Headlines Dropdown](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Top%20Headlines%20Dropdown.JPG)
-![Countries Dropdown](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Countries%20Dropdown.JPG)
+
+- - -
 
 ## Table of Contents
 
-- [Overview](#overview)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Building](#building)
+- [Requirements](#requirements)
+- [Installation](#installation)
 - [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
 - [License](#license)
-
-- - -
-
-## Overview
-
-News Nexus is a news aggregator website that brings the latest news from various sources around the world. Using the News API, News Nexus provides a seamless and user-friendly interface for browsing news articles. The website supports different themes (dark and light) and allows users to filter news by topic and country.
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 
-- **Responsive Design:** Enjoy a seamless experience on any device, from desktops to smartphones.
-- **News by Topic:** Easily access news articles categorized by topics such as Business, Politics, Sports, and more.
-- **Country-Specific News:** Filter news articles by selecting different countries.
-- **Dark and Light Themes:** Switch between dark and light themes according to your preference.
+- **Real-Time News Updates**: Stay up-to-date with the latest headlines from a variety of news sources.
+- **Topic-Based News Selection**: Easily browse news by topics such as Business, Politics, Technology, and more.
+- **Country Filters**: Get news from specific countries using our intuitive filter options.
+- **Dark and Light Themes**: Switch between dark and light modes for a customized reading experience.
+- **Responsive Design**: Optimized for all devices, providing a seamless user experience on desktops, tablets, and smartphones.
 
 ## Getting Started
 
-1. **Clone the repository and navigate to its root directory:**
+1. **Visit the Web Service**: Access News Nexus online.
+2. **Explore News**: Use the dropdown menus to select news topics or filter by country.
+3. **Customize Your View**: Toggle between dark and light themes using the theme switcher.
+
+### Requirements
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/news-nexus.git
+   git clone https://github.com/easyvansh/News-Nexus.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
    cd news-nexus
    ```
 
-2. **Install dependencies:**
+3. Install dependencies:
    ```bash
    npm install
    ```
 
-3. **Start the development server:**
+4. Start the development server:
    ```bash
    npm start
    ```
 
-The application is served at [http://localhost:3000](http://localhost:3000) by default.
-
-## Building
-
-To build the static assets for external or local hosting, run:
-```bash
-npm run build
-```
-The production-ready files will be located inside the `build` folder.
+5. Visit the web service locally in your browser at `http://localhost:3000`.
 
 ## Usage
 
-Explore news articles by selecting different topics or countries from the dropdown menus. Switch between the dark and light themes using the theme toggle.
+1. **Select a News Topic**: Use the dropdown menu to choose a specific news category.
+2. **Filter by Country**: Select a country from the dropdown menu to view news specific to that region.
+3. **Switch Themes**: Toggle between dark and light themes for optimal viewing comfort.
 
-![Top Headlines Dropdown](path_to_image)
-![Countries Dropdown](path_to_image)
+### Top Headlines 
+
+![Top Headlines Dropdown](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Top%20Headlines%20Dropdown.JPG)
+
+### Countries 
+![Countries Dropdown](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Countries%20Dropdown.JPG)
+
+### Multiple Pages
+![Multiple Pages Options](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/%5BHome%20Page%20Multiple%20Pages%20Options.JPG)
+
+
+## Technologies Used
+
+- **React.js**: JavaScript library for building the user interface.
+- **Node.js**: JavaScript runtime environment.
+- **Express.js**: Web framework for Node.js, used for building the backend API.
+- **Tailwind CSS**: Utility-first CSS framework for styling the application.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 ## License
 
-**MIT License**. For more information, see [LICENSE](https://github.com/yourusername/news-nexus/blob/main/LICENSE).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [News API](https://newsapi.org/)
+- [React.js](https://reactjs.org/)
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
