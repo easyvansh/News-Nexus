@@ -14,36 +14,54 @@ html, body {
     scroll-behavior: smooth;
 }
 
-.light-theme {
+.light {
     --background: url("https://tailwindcss.com/_next/static/media/hero@75.b2469a49.jpg");
-    --primary: #F8FAFC;
-    --secondary: #0F172A;
-    --txt: #000;
-    --heading: #2dd9fe;
-    --btn-color: #fff;
-    --btn-background: #5f99be;
-    --search-background: #000;
-    --c: #2dd9fe;
-    --hover_bg_change: backdrop-filter:6px;
+    --primary: #f5f5dc; /* Coffee beige background color */
+    --secondary: #d2b48c; /* Lighter beige for secondary elements */
+    --txt: #333333; /* Darker shade for text to mimic print */
+    --heading: #000000; /* Bold black for headings */
+    --btn-color: #ffffff; /* White text on buttons */
+    --btn-background: #8b4513; /* Saddle brown for button background */
+    --search-background: #eae0c8; /* Lighter beige for search background */
+    --c: #333333; /* Darker text color */
+    --hover_bg_change: backdrop-filter: 6px;
+
+    /* Font and text styling */
+    --font-family: 'Times New Roman', Times, serif; /* Times New Roman for retro aesthetic */
 }
 
-.dark-theme {
-    --background: url("https://tailwindcss.com/_next/static/media/hero-dark@90.dba36cdf.jpg");
-    --primary: rgb(30,41,59);
-    --secondary: #D5DDF0;
-    --txt: #fff;
-    --heading: #4666FF;
-    --btn-color: #000;
-    --btn-background: #5f99be;
-    --search-background: #18181b;
+
+.dark {
+    --background: url("https://tailwindcss.com/_next/static/media/hero@75.b2469a49.jpg");
+    --primary: #2b2b2b; /* Dark background color */
+    --secondary: #3e3e3e; /* Darker gray for secondary elements */
+    --txt: #e0e0e0; /* Light gray for text */
+    --heading: #ffffff; /* White for headings */
+    --btn-color: #2b2b2b; /* Dark text on buttons */
+    --btn-background: #d2b48c; /* Tan color for button background */
+    --search-background: #3e3e3e; /* Dark gray for search background */
+    --c: #d2b48c; /* Tan color for hover effects */
+    --hover_bg_change: backdrop-filter: 6px;
+
+    /* Font and text styling */
+    --font-family: 'Times New Roman', Times, serif; /* Times New Roman for retro aesthetic */
 }
 
 body {
-    background: var(--background);
+    font-family: var(--font-family);
+    background-color: var(--primary);
+    color: var(--txt);
+    /* background-image: var(--background); */
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
     margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading);
+    font-family: var(--font-family);
 }
 
 .container {
@@ -51,22 +69,25 @@ body {
 }
 
 nav {
-    height: 80px;
+    height:100px;
     backdrop-filter: blur(4px);
     border-bottom: 0.1px solid grey;
-    padding: 1.5em;
+    box-shadow: 
+        0 0 5px rgba(0, 0, 0, 0.5),
+        0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 2em;
     width: 100% ;
     display:inline-flex;
     justify-content: space-around;
     align-items: center;
-    font-family: monospace;
+    font-family: var(--font-family);
     /* font-size: 1.5em; */
 }
 
 .heading {
     color: var(--heading);
     padding: 0.5em;
-    font-size:xxx-large;
+    font-size:xx-large;
     font-weight: 700;
 }
 
@@ -78,12 +99,13 @@ nav ul {
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    font-size:large;
-    
 }
 
 ul li {
-    padding: 1.5em;
+    font-size:19px;
+    font-weight: 500;
+    /* padding:1.5em; */
+    margin:1.5em;
     
 }
 .dropdown-li {
@@ -93,25 +115,62 @@ ul li {
 ul li ul {
     visibility: hidden;
     opacity: 0;
-    margin-top: 15px;
     position: absolute;
     left: 0;
-    display: none;
+    display: flex;
     background: var(--primary);
+    text-transform: capitalize;
+}
+.dropdown {
+    min-height: 10vh;
+    max-height: 50vh;
+    overflow: auto;
+    margin-top: 25px;
+    display: block;
+    min-width: 250px;
+    text-align: center;
+    justify-content: space-around;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    overflow-y: visible;
 }
 
 .show-dropdown {
     visibility: visible;
-    opacity: 0.9;
-    display: block;
-    min-width: 200px;
-    text-align: center;
-    justify-content: space-around;
-    font-size:medium;
-    margin-left: 0.2em;
-    padding-top: 20px;
+    opacity: 1;
     box-shadow: 0px 5px 7px -2px var(--heading);
-    scroll-behavior: smooth;
+    text-align: left;
+    
+}
+
+.news-btn {
+    padding-top: 18px;
+    font-size:18px;
+    align-items: left;
+    padding-left: 1.5em;
+    padding-right: 2em;
+    text-align: left;
+}
+
+ul li ul li a{
+    clear: both;
+    width: 80%;
+    margin-left: -20px;
+    border-style: none;
+    /* padding: 1em; */
+    text-align: left;
+}
+
+ul li ul li a:hover {
+    padding-left: 10px;
+    border-left: 2px solid #934000;
+    transition: all 0.2s ease;
+    
+}
+
+.flags {
+    height: 30px;
+    width: 30px;
 }
 
 .down-arrow-icon {
@@ -129,35 +188,10 @@ ul li ul {
     transform: rotate(-180deg);
 }
 
-.dropdown {
-    min-height: 10vh;
-    height: 50vh;
-    overflow: auto;
-    top: 30px;
-}
 
 .no-underline {
     text-decoration: none;
   }
-
-ul li ul li {
-    clear: both;
-    width: 100%;
-    text-align: left;
-    margin-bottom: 20px;
-    border-style: none;
-}
-
-ul li ul li a:hover {
-    padding-left: 10px;
-    border-left: 2px solid #3ca0e7;
-    transition: all 0.3s ease;
-}
-
-.flags {
-    height: 30px;
-    width: 30px;
-}
 
 .ham-burger {
     display: none;
@@ -193,24 +227,25 @@ ul li ul li a:hover {
 .checkbox {
     opacity: 0;
     position: absolute;
-}
-
+  }
+  
 .checkbox-label {
-    background-color: #111;
-    width: 50px;
-    height: 26px;
-    border-radius: 50px;
-    position: relative;
-    padding: 5px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+background-color: #111;
+width: 50px;
+height: 26px;
+border-radius: 50px;
+position: relative;
+padding: 5px;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
-
+  
 .fa-moon {color: #f1c40f;}
-.fa-sun {color: #f39c12;}
 
+.fa-sun {color: #f39c12;}
+  
 .checkbox-label .ball {
     background-color: #fff;
     width: 22px;
@@ -247,6 +282,7 @@ ul li ul li a:hover {
     margin-left: -2px;
     border-bottom-right-radius: 4px;
     padding:1em;
+    border-color:#000;
 }
 
 .pagination-btn {
@@ -298,7 +334,7 @@ ul li ul li a:hover {
 }
 
 .title {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 22px;
     padding: auto;
@@ -360,6 +396,7 @@ footer {
         justify-content: space-between !important;
         padding: 0 5% !important;
     }
+    
 }
 
 @media (max-width: 689px) {
@@ -389,6 +426,13 @@ footer {
         z-index: 1;
         padding: 25% 10%;
         transition: 0.3s;
+    }
+    ul li {
+        padding:1.5em;
+        font-size:24px;
+        font-weight: 500;
+        margin:1.5em;
+        
     }
 
     nav ul.active {

@@ -11,14 +11,14 @@ import CountryNews from "./components/CountryNews";
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <div className="w-full">
+    <div className="w-full"  data-theme="retro">
       <BrowserRouter>
         <Header />
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<AllNews />} />
           <Route path="/top-headlines/:category" element={<TopHeadlines />} />
           <Route path="/country/:iso" element={<CountryNews />} />
-        </Routes>
+        </Routes> */}
         {/* <Cards />  */}
         {/* <Footer />   */}
       </BrowserRouter>
