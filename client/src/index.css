@@ -81,7 +81,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: var(--font-family);
-    /* font-size: 1.5em; */
+    z-index: 100;
 }
 
 .heading {
