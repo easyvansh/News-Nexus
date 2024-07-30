@@ -78,17 +78,17 @@ Ensure you have the following installed:
 
 
 <div align="center"> 
-<h2>Top Headlines </h2>
+<h3>Top Headlines </h3>
 <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Top%20Headlines%20Dropdown.JPG" />
 </div>
 
 <div align="center"> 
-<h2>Countries</h2>
+<h3>Countries</h3>
 <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Countries%20Dropdown.JPG" />
 </div>
 
 <div align="center">
-<h2>Multiple Pages </h2>
+<h3>Multiple Pages </h3>
 <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/%5BHome%20Page%20Multiple%20Pages%20Options.JPG" style="width:600px; height:400px"/>
 </div>
 
