@@ -73,7 +73,9 @@ Ensure you have the following installed:
    npm start
    ```
 
+
 5. Visit the web service locally in your browser at `http://localhost:3000`.
+
 
 
 6. Navigate to the client directory:
