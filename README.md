@@ -77,14 +77,19 @@ Ensure you have the following installed:
 3. **Switch Themes**: Toggle between dark and light themes for optimal viewing comfort.
 
 ### Top Headlines 
-
-<img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Top%20Headlines%20Dropdown.JPG" style="width:600px; height:400px"/>
+<div align="center"> 
+<img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Top%20Headlines%20Dropdown.JPG" />
+</div>
 
 ### Countries 
-<img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Countries%20Dropdown.JPG" style="width:600px; height:400px"/>
+<div align="center"> 
+<img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Countries%20Dropdown.JPG" />
+</div>
 
 ### Multiple Pages
+<div align="center">
 <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/%5BHome%20Page%20Multiple%20Pages%20Options.JPG" style="width:600px; height:400px"/>
+</div>
 
 
 ## Technologies Used
