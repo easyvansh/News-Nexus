@@ -76,18 +76,19 @@ Ensure you have the following installed:
 2. **Filter by Country**: Select a country from the dropdown menu to view news specific to that region.
 3. **Switch Themes**: Toggle between dark and light themes for optimal viewing comfort.
 
-### Top Headlines 
+
 <div align="center"> 
+<h2>Top Headlines </h2>
 <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Top%20Headlines%20Dropdown.JPG" />
 </div>
 
-### Countries 
 <div align="center"> 
+<h2>Countries</h2>
 <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Countries%20Dropdown.JPG" />
 </div>
 
-### Multiple Pages
 <div align="center">
+<h2>Multiple Pages </h2>
 <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/%5BHome%20Page%20Multiple%20Pages%20Options.JPG" style="width:600px; height:400px"/>
 </div>
 
