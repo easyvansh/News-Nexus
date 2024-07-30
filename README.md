@@ -2,14 +2,14 @@
 
 <div align="center">
 
-  <p>A responsive and interactive News Aggregator website using News API.</p>
-  <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Home%20Page%20Light%20Theme.JPG" style="width:800px; height:400px"/>
-</div>
-
 **News Nexus** is your go-to platform for the latest news from around the world. It fetches real-time news updates from various sources using the News API, presenting them in a user-friendly and responsive interface. With features like topic-based news selection, country-specific filters, and theme customization, News Nexus ensures you stay informed in the way that suits you best.
 
-### Dark Theme
-![Home Page Dark Theme](https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Home%20Page%20Dark%20Theme.JPG)
+
+<div align="center">
+
+  <h3>Dark Theme</h3>
+  <img src="https://github.com/easyvansh/News-Nexus/blob/main/screenshots/Home%20Page%20Dark%20Theme.JPG" style="width:800px; height:400px"/>
+</div>
 
 - - -
 
