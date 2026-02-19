@@ -266,13 +266,11 @@ twoLetterISO.forEach(element => {
 })
 
 function getCountryName (countryCode) {
-    if (isoCountries.hasOwnProperty(countryCode)) {
+    if (Object.prototype.hasOwnProperty.call(isoCountries, countryCode)) {
         return isoCountries[countryCode];
     } else {
         return countryCode;
     }
 }
-
-console.log(countries)
 
 export default countries; 

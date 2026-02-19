@@ -1,0 +1,50 @@
+﻿[
+  {
+    "id": "reuters",
+    "name": "Reuters",
+    "url": "https://www.reuters.com",
+    "category": "general",
+    "language": "en",
+    "country": "us"
+  },
+  {
+    "id": "bbc-news",
+    "name": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "category": "general",
+    "language": "en",
+    "country": "gb"
+  },
+  {
+    "id": "ap-news",
+    "name": "Associated Press",
+    "url": "https://apnews.com",
+    "category": "general",
+    "language": "en",
+    "country": "us"
+  },
+  {
+    "id": "cbc-news",
+    "name": "CBC News",
+    "url": "https://www.cbc.ca/news",
+    "category": "general",
+    "language": "en",
+    "country": "ca"
+  },
+  {
+    "id": "techcrunch",
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com",
+    "category": "technology",
+    "language": "en",
+    "country": "us"
+  },
+  {
+    "id": "the-verge",
+    "name": "The Verge",
+    "url": "https://www.theverge.com",
+    "category": "technology",
+    "language": "en",
+    "country": "us"
+  }
+]

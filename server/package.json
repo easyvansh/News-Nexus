@@ -1,18 +1,24 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "News Nexus API server",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js",
+    "lint": "node -e \"const fs=require('fs');const path=require('path');const walk=(d)=>fs.readdirSync(d,{withFileTypes:true}).flatMap(f=>{if(f.name==='node_modules'||f.name==='.git')return [];const p=path.join(d,f.name);if(f.isDirectory())return walk(p);return p.endsWith('.js')?[p]:[]});walk('.').forEach((file)=>{new Function(fs.readFileSync(file,'utf8'));});console.log('Lint check passed');\"",
+    "test": "jest --runInBand"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }

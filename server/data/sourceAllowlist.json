@@ -1,0 +1,20 @@
+{
+  "domains": {
+    "reuters.com": 1,
+    "bbc.com": 0.96,
+    "apnews.com": 0.94,
+    "theglobeandmail.com": 0.92,
+    "cbc.ca": 0.93,
+    "techcrunch.com": 0.9,
+    "wsj.com": 0.9,
+    "ft.com": 0.89
+  },
+  "sourceNames": {
+    "Reuters": 1,
+    "BBC News": 0.96,
+    "Associated Press": 0.94,
+    "CBC News": 0.93,
+    "The Globe and Mail": 0.92,
+    "TechCrunch": 0.9
+  }
+}

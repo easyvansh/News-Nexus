@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="News Nexus mark">
+  <defs>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#d6b07a"/>
+      <stop offset="100%" stop-color="#8b5e2e"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="10" fill="#1a120d"/>
+  <rect x="8" y="8" width="48" height="48" rx="8" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <path d="M18 44V20h5l10 13V20h5v24h-5L23 31v13z" fill="url(#g)"/>
+  <circle cx="46" cy="18" r="4" fill="url(#g)"/>
+</svg>
